@@ -96,3 +96,35 @@ public static void main(String[] args) {
 
 ```
 
+
+
+
+
+```
+
+public class Ex01 {
+	
+	//멤버변수 = 클래스내에 선언된 변수 ( 인스턴스변수와 정적변수) 
+	String name;   //인스턴스 변수 
+	int age;	//인스턴스 변수
+	String id;  //인스턴스 변수
+	static String nationality = "korea"; // 정적변수 
+	
+	
+	public static void main(String[] args) {
+		
+		
+	// 인스턴스를 생성 후에 접근 가능한 변수 = 인스턴스 변수 
+		
+		Ex01 per = new Ex01();
+		
+		per.name="김연경";
+		per.age=34;
+		
+		System.out.println(per.name);
+		
+	}
+
+}
+```
+
