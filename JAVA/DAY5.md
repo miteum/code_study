@@ -38,6 +38,41 @@ switch (조건값) {
 
 
 
+[실습하기]
+
+``` 
+int num = 65;
+char alphabet;
+
+if (65 == num) {
+    alphabet = 'A';
+} else if (66 == num) {
+    alphabet = 'B';
+} else if (67 == num) {
+    alphabet = 'C';
+} else {
+    alphabet = '0';
+}
+
+System.out.println(alphabet);
+```
+
+
+
+```
+char locationPrefix = 's';
+
+String location = "어딘지모름";
+
+if ('k' == locationPrefix) {
+    location = "강남";
+} else if ('s' == locationPrefix) {
+    location = "수원";
+} 
+
+System.out.println(location);
+```
+
 
 
 
