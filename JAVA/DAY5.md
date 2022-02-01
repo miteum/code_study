@@ -244,6 +244,32 @@ for( 초기화; 조건식; 반복 후 실행될 명령어) {
 
 
 ```
+* for문을 이용해 3의 배수의 총합을 구하라 
+ 
+public static void main(String[] args) {
+int num = 0;
+		
+		
+		for(int z = 1; z<= 100; z++ ){
+			if(z% 3 ==0 ) {
+				num += z;
+			
+			}
+		}
+	
+		System.out.println("3의 배수  " +  num);
+	}
+	}
+
+```
+
+
+
+
+
+
+
+```
 for(int num = 0; num <4; num++) {
 System.out.println(num);
 }
