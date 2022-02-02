@@ -23,6 +23,14 @@ System.out.println(output);
 
 
 
+- %d - byte, short, int, long 자료형을 대입해주는 지시자
+- %f - double, float 자료형을 대입해주는 지시자
+- %c - char 자료형을 대입해주는 지시자
+- %b - boolean 자료형을 대입해주는 지시자
+- %s - string 자료형을 대입해주는 지시자 
+
+
+
 
 
 format 지시어 
