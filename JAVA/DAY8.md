@@ -128,3 +128,33 @@ public class Ex01 {
 }
 ```
 
+
+
+
+
+
+
+```
+public class Main {
+
+     String id;
+     int pw;
+     String name;
+     
+     
+     Main(String id, int pw) {
+        
+        this.id = id;
+        this.pw = pw;
+     }
+
+    public static void main(String[] args) {
+        // TODO : 실습해보세요의 코드를 작성해보세요.
+    
+       Main main = new Main("aaa", 123);
+       System.out.println(main.id);
+       
+    }
+}
+```
+
