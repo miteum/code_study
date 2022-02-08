@@ -60,3 +60,33 @@ public class NoteService {
 
 }
 ```
+
+
+
+
+
+메모 작성
+
+```
+   public void addNote() {
+        System.out.println("");
+        if (NOTE_SIZE == this.noteLength) {
+            System.out.println("메모가 꽉찼습니다");
+            System.out.println("");
+            return;
+        }
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("제목을 작성해주세요");
+        String title = scanner.nextLine();
+
+        System.out.println("본문을 작성해주세요");
+        String content = scanner.nextLine();
+
+        noteEntities[this.noteLength++] = NoteEntity.newInstance(title, content);
+
+        System.out.println("메모가 작성되었습니다");
+        System.out.println("");
+    }
+```
+
