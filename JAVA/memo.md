@@ -90,3 +90,29 @@ public class NoteService {
     }
 ```
 
+
+
+메모 수정
+
+```
+public void updateNote() {
+        System.out.println("");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("수정하실 메모의 번호를 입력해주세요");
+        int selectedNumber = Integer.parseInt(scanner.nextLine());
+
+        System.out.println("본문을 작성해주세요");
+        String content = scanner.nextLine();
+
+        NoteEntity noteEntity = noteEntities[selectedNumber];
+        if (null == noteEntity) {
+            System.out.println("존재하지 않는 메모입니다");
+            return;
+        }
+        noteEntity.update(content);
+
+        System.out.println("메모가 수정되었습니다");
+        System.out.println("");
+    }
+```
+
