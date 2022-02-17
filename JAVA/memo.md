@@ -209,3 +209,23 @@ public void updateNote() {
 
 
 
+메모 삭제
+
+```
+public void deletNote(){
+        System.out.println("");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("삭제하실 메모 번호를 입력해주세요");
+        int selectedNumber = scanner.nextInt();
+        NoteEntity noteEntity = noteEntities[selectedNumber];
+        if (null == noteEntity) {
+            System.out.println("작성된 메모가 없습니다");
+            System.out.println("");
+            return;
+        }
+
+        noteEntities[this.noteLength--] = null;
+        System.out.println("메모가 삭제 되었습니다.");
+    }
+```
+
