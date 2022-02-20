@@ -39,3 +39,29 @@ public static void main(java.lang.String[] args) {
 	
 ```
 
+```
+//출력 - 자가진단 6
+		int n = 170;
+		double z = 68.6;
+		
+		System.out.printf("My height" + n + "My weight" + z); // 첫번째 방법
+		
+		System.out.printf("My height\n");
+		System.out.printf("%d\n",n);
+		System.out.printf("My weight\n");
+		System.out.printf("%.6f",z);
+		
+		
+		//출력 - 자가진단 7
+		System.out.printf("5 Dan");
+		System.out.printf("5 * 2 = 10");
+
+		
+		
+		//출력 - 자가진단 8
+		System.out.println("item  count  price");
+		System.out.printf("pen, 20, 100\n");
+		System.out.printf("note, 5, 95\n");
+		System.out.printf("eraser, 110, 97\n");
+```
+
