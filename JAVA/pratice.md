@@ -65,3 +65,36 @@ public static void main(java.lang.String[] args) {
 		System.out.printf("eraser, 110, 97\n");
 ```
 
+---
+
+
+
+
+
+``` 
+	
+		System.out.println("My name is Hong");
+		
+		
+		//형성평가2
+		System.out.println("My hometown");
+		System.out.println("Flowering Mountain");
+		
+		
+		//형성평가3
+		System.out.printf("TTTTTTTTTT\n");
+		System.out.printf("TTTTTTTTTT\n");
+		System.out.printf("%5s\n","TT");
+		System.out.printf("%5s\n","TT");
+		System.out.printf("%5s\n","TT");
+		
+		
+		//형성평가4
+		int kor = 90;
+		int mat = 80;
+		int eng = 100;
+		
+		System.out.println("sum =" + "kor + mat + eng" );
+		System.out.println(kor + mat + eng);
+```
+
