@@ -123,3 +123,20 @@ public class Main {
 }
 ```
 
+
+
+```
+int main(){
+
+ double num,num1;
+
+ char a;
+
+ scanf("%lf %lf %c",&num,&num1,&a);
+
+ printf("%.2lf\n%.2lf\n%c",num,num1,a);
+
+}
+
+```
+
