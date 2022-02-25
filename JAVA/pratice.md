@@ -138,5 +138,19 @@ int main(){
 
 }
 
+
+
+float num1,num2;
+
+double num3;
+
+scanf("%f %f %lf",&num1,&num2,&num3);
+
+printf("%.3f\n%.3f\n%.3lf",num1,num2,num3);
+
+}
+
 ```
+
+
 
