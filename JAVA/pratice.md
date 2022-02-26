@@ -150,6 +150,17 @@ printf("%.3f\n%.3f\n%.3lf",num1,num2,num3);
 
 }
 
+
+//형성평가 5 정올 110
+
+
+ double yd;
+  Scanner sc = new Scanner(System.in);
+  System.out.printf("yard? ");
+  yd = sc.nextDouble();
+  System.out.printf("%.1fyard = %.1fcm", yd, yd * 91.44f);
+  
+  
 ```
 
 
