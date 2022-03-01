@@ -114,6 +114,59 @@ public static void main(java.lang.String[] args) {
 
 
 ```
+		//입력 자가진단1 
+		//정수형 변수를 선언하고 -100을 대입하여 출력하는 프로그램을 작성하라. 
+		
+		int i = -100; 
+		System.out.println(i);
+		
+		
+		//자가진단2
+		//정수형 변수 2개를 선언하여 -1과 100을 대입한 후 아래와 같이 출력하는 프로그램을 작성하라.
+		
+		int j = -1;
+		int z = 100; 
+		System.out.println(j);
+		System.out.println(z);
+		
+		
+		
+		//자가진단 3
+		//두 개의 정수형 변수를 선언하고 값을 대입하여 아래와 같이 출력되는 프로그램을 작성하라.
+		
+		int a = 55;
+		int b = 10; 
+		
+		System.out.println(a+"-"+b+"="+(a-b));
+		
+		int c = 2008;
+		int d = 1999;
+		
+		System.out.println(c+"-"+d+"="+(c-d));
+		
+		
+		
+		/* 자가진단 4 추의 무게를 저장할 변수와 중력의 비율을 저장할 변수를 선언하고, 
+		 * 다음 두 값을 변수에 저장하여 곱셈 계산식을 출력하는 프로그램을 작성하라. 
+		 * 추의 무게 = 49, 중력의 비율 = 0.2683 */
+		
+		int w = 49;
+		double x = 0.2683;
+		
+		System.out.println(w+"*"+x+"="+(w*x));
+		
+		
+		//자가진단 5  
+		//1야드(yd)는 91.44cm이고 1인치(in)는 2.54cm이다. 
+		//2.1야드와 10.5인치를 각각 cm로 변환하여 다음 형식에 맞추어 소수 첫째자리까지 출력하시오.
+
+		float yd = 91.44f;
+		float in = 2.54f;
+		
+		System.out.printf("%4.1fyd = %5.1fcm\n", 2.1,2.1*yd);
+		System.out.printf("%4.1fyd = %5.1fcm\n", 10.5,10.5*in);
+		
+	}
 
 public class Main {
  public static void main(String[] args) {
