@@ -200,8 +200,21 @@ public class Main {
 		double m = 0.2683;
 			
 		System.out.println(n * m);
-	
-
+		
+		
+		
+		
+		//자가진단6 
+		
+		키를 입력받아 출력하는 프로그램을 작성하라.
+		(입력할때 "height = " 문장을 먼저 출력하고 키를 입력 받아야 합니다.)
+		
+		
+		int height;
+		Scanner sc = new Scaaner(System.in);
+		height = sc.nextint();
+		System.out.println("Your height is " + height+"cm");
+		
 ```
 
 
