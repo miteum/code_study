@@ -35,6 +35,8 @@ public static void main(java.lang.String[] args) {
 		
 	}
 	
+	
+	
 ```
 
 ```
@@ -214,6 +216,23 @@ public class Main {
 		Scanner sc = new Scaaner(System.in);
 		height = sc.nextint();
 		System.out.println("Your height is " + height+"cm");
+		
+		
+		
+		
+//자가진단 8 
+
+실수 2개와 한 개의 문자를 입력 받아 출력하되 실수는 반올림하여 소수 둘째자리까지 출력하는 프로그램을작성하시오.
+(C, C++, Java 의 경우 실수는 "double"로 선언하세요.)
+
+    double i=0,j=0; 
+    char c=0;
+
+    scanf("%lf %lf %c",&i,&j,&c);
+    printf("%.2f\r\n%.2f\r\n%c",i,j,c);
+
+    return 0;
+
 		
 ```
 
