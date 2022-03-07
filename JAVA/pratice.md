@@ -205,33 +205,61 @@ public class Main {
 		
 		
 		
-		
-		//자가진단6 
-		
-		키를 입력받아 출력하는 프로그램을 작성하라.
-		(입력할때 "height = " 문장을 먼저 출력하고 키를 입력 받아야 합니다.)
-		
+//자가진단6 
+		//키를 입력받아 출력하는 프로그램을 작성하라.(입력할때 "height = " 문장을 먼저 출력하고 키를 입력 받아야 합니다.)
 		
 		int height;
-		Scanner sc = new Scaaner(System.in);
-		height = sc.nextint();
-		System.out.println("Your height is " + height+"cm");
+		Scanner sc = new Scanner(System.in);
+		System.out.print("height=");
+		height = sc.nextInt();
+		System.out.println("Your height is" + height+"cm.");
 		
 		
 		
+		//자가진단 7
+		//두 개의 정수를 입력 받아 곱과 몫을 출력하시오. (먼저 입력 받는 수가 항상 크며 입력되는 두 정수는 1이상 500이하이다.)
 		
-//자가진단 8 
+		int num;
+		int numm;
+		
+		Scanner sca = new Scanner(System.in);
+		num = sca.nextInt();
+		numm = sca.nextInt();
+		
+		System.out.print(num+"*"+numm+"="+(num*numm));
+		System.out.print(num+"/"+numm+"="+(num/numm));
+		
+		
+		//자가진단8 
+	    //실수 2개와 한 개의 문자를 입력 받아 출력하되 실수는 반올림하여 소수 둘째자리까지 출력하는 프로그램을작성하시오.
 
-실수 2개와 한 개의 문자를 입력 받아 출력하되 실수는 반올림하여 소수 둘째자리까지 출력하는 프로그램을작성하시오.
-(C, C++, Java 의 경우 실수는 "double"로 선언하세요.)
+		double num1;
+		double num2;
+		
+		
+		Scanner scaa = new Scanner(System.in);
+		
+		num1=scaa.nextDouble();
+		num2=scaa.nextDouble();
+	    char ch=scaa.next().charAt(0);
+		
+	    System.out.printf("%.2f\n",num1);
+	    System.out.printf("%.2f\n",num2);
+	    System.out.printf("%c",ch);
+	
+	    
+	    //자가진단9
+	    //세 개의 실수를 입력 받아 반올림하여 소수 셋째 자리까지 출력하는 프로그램을 작성하시오.
+	    
+	    Scanner scaan = new Scanner(System.in);
+	    float s = scaan.nextFloat();
+		float e = scaan.nextFloat();
+		double h = scaan.nextDouble();
 
-    double i=0,j=0; 
-    char c=0;
-
-    scanf("%lf %lf %c",&i,&j,&c);
-    printf("%.2f\r\n%.2f\r\n%c",i,j,c);
-
-    return 0;
+		
+        System.out.printf("%.3f\n", s);
+		System.out.printf("%.3f\n", e);
+		System.out.printf("%.3f\n", h);
 
 		
 ```
